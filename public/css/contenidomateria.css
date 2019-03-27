@@ -1,0 +1,121 @@
+.loader {
+    margin:auto;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.ph{
+		color: #FFFFFF;
+  		transition: 0.3s;
+  		background-color: #605ca8 ;
+
+  		border: none;
+  
+ 		 font-size: 16px;
+ 		 transition: 0.5s;
+	}
+	.ph:hover{
+		background-color:#7e57c2   ;    
+	}
+	.tema{
+		background-color: #716be0      !important;
+		color: #716be0 ;
+		font-size: 16px;
+	}
+  .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family:Fontawesome;  /* essential for enabling glyphicon */
+    content:'\f077';    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: white;         /* adjust as needed */
+}
+.accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f078";    /* adjust as needed, taken from bootstrap.css */
+}
+.ph-nombre{
+  color: #FFFFFF;
+      transition: 0.3s;
+      background-color: #337ab7 ;
+
+      border: none;
+  
+     font-size: 16px;
+     transition: 0.5s;
+
+}
+  /*
+  .panel-default a:after {
+    font-family:Fontawesome;
+    content:'\f077';
+    float:right;
+    font-size:10px;
+    font-weight:300;
+}
+
+
+.panel-default a.collapsed:after {
+    font-family:Fontawesome;
+    content:'\f078';
+}
+*/
+.caret {
+    transition: transform 0.35s ease;
+}
+
+ .caret-open {
+     transform: rotate(180deg);
+ }
+
+ .col-lg-12, .col-md-12, .col-lg-8{
+    -webkit-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    -moz-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    -o-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+ }
+
+ h4{
+  display: inline;
+  
+}
+.titulo{
+  margin-bottom: 25px;
+}
+.right{
+  float: right;
+}
+.prev {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.prev:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #337ab7;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+.right{
+  text-align: right;
+}
