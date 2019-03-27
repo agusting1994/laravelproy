@@ -60,7 +60,7 @@
                             </ul>
                         </div>
                         @if ($tema->modulo_id == $modulo->modulo_id)
-                        <a class="list-group-item text-center text-primary accordion-toggle" data-toggle="collapse" href="#contenido{{ $tema->tema_id }}" style="background-color: #9F65F5; color: #FFFFFF">
+                        <a class="list-group-item text-center text-primary accordion-toggle" data-toggle="collapse" href="#contenido{{ $tema->tema_id }}" style="background-color: #C5DFF9; color: #424c73">
                             <span class="fa fa-desktop">
                             </span>
                             {{ $tema->nombre }}

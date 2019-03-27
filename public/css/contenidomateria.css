@@ -15,7 +15,7 @@
 .ph{
 		color: #FFFFFF;
   		transition: 0.3s;
-  		background-color: #605ca8 ;
+  		background-color: #1a83ed ;
 
   		border: none;
   
@@ -23,10 +23,10 @@
  		 transition: 0.5s;
 	}
 	.ph:hover{
-		background-color:#7e57c2   ;    
+		background-color:#337ab7   ;    
 	}
 	.tema{
-		background-color: #716be0      !important;
+		background-color: #C5DFF9      !important;
 		color: #716be0 ;
 		font-size: 16px;
 	}
@@ -35,7 +35,7 @@
     font-family:Fontawesome;  /* essential for enabling glyphicon */
     content:'\f077';    /* adjust as needed, taken from bootstrap.css */
     float: right;        /* adjust as needed */
-    color: white;         /* adjust as needed */
+    color: #424c73;         /* adjust as needed */
 }
 .accordion-toggle.collapsed:after {
     /* symbol for "collapsed" panels */
