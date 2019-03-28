@@ -97,7 +97,19 @@
                     </div>
                 </div>
                 @endforeach
+                <div class="panel panel-default ">
+                    <a href="#">
+                        <div class="panel-heading ph">
+                            <h4 class="panel-title text-center ">
+                                Cierre
+                                <span class="fa fa-youtube-play pull-right">
+                                </span>
+                            </h4>
+                        </div>
+                    </a>
+                </div>
             </div>
+
         </div>
     </br>
 </div>

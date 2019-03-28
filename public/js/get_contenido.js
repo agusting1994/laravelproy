@@ -28,7 +28,6 @@ $(document).ready(function(){
             });
         //función de click en el modulo previo y en la ultima autoevaluación
         $("#moduloprevio").click(function() { 
-                   alert('assad');
               var enlace = $('#moduloprevio').attr('data-modulo-previo');
               var enlaceUltimoTema = $('#moduloprevio').attr('data-modulo-tema-previo');
               if($( 'a[href*='+enlace+']' ).attr('aria-expanded') === "false" || $( 'a[href*='+enlace+']' ).attr('aria-expanded') === undefined){
@@ -36,7 +35,7 @@ $(document).ready(function(){
                 $( 'a[href*='+enlaceUltimoTema+']' ).click();
               }
               if($( 'a[href*='+enlace+']' ).attr('aria-expanded') === "true"){
-                $( "#"+enlace+" a:last-child" ).click();
+                $( "#"+enlaceUltimoTema+" a:last-child" ).click();
               }
             });
         $("#siguiente").click(function() { 
@@ -63,8 +62,7 @@ $(document).ready(function(){
             $("#siguientemodulo").click(function() {
               var enlace = $('#siguientemodulo').attr('data-modulo');
               var enlacePrimerTema = 'contenido' + $('#siguientemodulo').attr('data-modulo-tema');
-              alert(enlacePrimerTema);
-              alert(enlacePrimerTema);
+              
               if($( 'a[href*='+enlace+']' ).attr('aria-expanded') === "false" || $( 'a[href*='+enlace+']' ).attr('aria-expanded') === undefined){
                 $( 'a[href*='+enlace+']' ).click();
                if ($( 'a[href*='+enlacePrimerTema+']' ).attr('aria-expanded') === "false" || $( 'a[href*='+enlacePrimerTema+']' ).attr('aria-expanded') === undefined ){
